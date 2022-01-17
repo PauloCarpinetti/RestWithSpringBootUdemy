@@ -38,12 +38,23 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-        </dependency>     
+        </dependency>  
+        
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
+               
+        <dependency>
+		    <groupId>com.github.dozermapper</groupId>
+		    <artifactId>dozer-core</artifactId>
+		    <version>6.5.2</version>
+        </dependency>   
                
         <dependency>
           <groupId>junit</groupId>
           <artifactId>junit</artifactId>
-        </dependency>  
+        </dependency>          
   </dependencies>
   
   <build>
